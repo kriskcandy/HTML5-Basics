@@ -1,0 +1,53 @@
+/*stylesheet.css*/
+/* Style rule for the body element */
+body{
+    background-color:#FFFFFF;
+    background-image:url(pics/bkg-brush-metal.jpg);
+    background-repeat:repeat;
+    font-style: normal; /* can also be i
+    font-variant: normal; /* can also choose small-caps or bold */
+    font-weight: normal; /* can also choose bold */
+    font-size: 12pt; /* can also use: 16px, 1 em, or 100% */ 
+    font-family: Tahoma, Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+    color: #0000BB;
+    line-height: 120%; /* leading between text lines */
+    /* or for shorthand you have the option to just use --> font: [style] [variant] [weight] size[/height] family */
+    text-decoration: /* overline underline line-through or none */
+    /* Default font styling shares everything onto one line
+    font: 10pt Arial, Helvetica, Sans-Serif; --> font: [style], [varient] 
+    color: #5d3f25; */
+}
+  
+/* Style rule for the wrapper div */
+#wrapper{
+    width: 900px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border: solid 4px;
+    border-color: #222222;
+    border-radius: 1px 20px 80px 40px; 
+    border-top-left-radius: 30px;
+    box-shadow: 15px 8px 4px 1px #888888; /* shadows height, width, blur, spread, color */
+    padding: 16px;
+}
+
+/* Style for h1 headings */
+h1{
+    font:italic small-caps bold 24px Arial, Sans-Serif;
+    text-shadow:3px -1px 3px #BBBBBB;
+    text-align:center;
+ }
+
+ /* Style for h2 headings */
+ h2{
+    font:italic small-caps bold 18px Arial Black, Sans-Serif;
+    text-shadow: 3px -1px 1px #AAAAAA;
+
+ }
+
+ 
+ /* Style for paragraphs */
+ p{
+   line-height:1.5;
+
+}
